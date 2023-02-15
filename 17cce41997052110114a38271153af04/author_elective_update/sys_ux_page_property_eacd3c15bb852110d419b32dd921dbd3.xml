@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ux_page_property">
+    <sys_ux_page_property action="DELETE">
+        <choices/>
+        <description/>
+        <name>chrome_header</name>
+        <page display_value="">2ecd3c1597852110114a38271153af88</page>
+        <required_translations>[]</required_translations>
+        <route display_value="Login">2acd3c1554852110cc4ef43b522175f4</route>
+        <suffix/>
+        <sys_class_name>sys_ux_page_property</sys_class_name>
+        <sys_created_by>system</sys_created_by>
+        <sys_created_on>2023-02-15 06:50:36</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>global</sys_domain_path>
+        <sys_id>eacd3c15bb852110d419b32dd921dbd3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>chrome_header</sys_name>
+        <sys_package display_value="Adoptry" source="x_862716_adoptry">17cce41997052110114a38271153af04</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Adoptry">17cce41997052110114a38271153af04</sys_scope>
+        <sys_update_name>sys_ux_page_property_eacd3c15bb852110d419b32dd921dbd3</sys_update_name>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2023-02-15 06:50:36</sys_updated_on>
+        <type>json</type>
+        <unique_name>x_862716_adoptry.2ecd3c1597852110114a38271153af88.route.chrome_header.2acd3c1554852110cc4ef43b522175f4</unique_name>
+        <value>{&#13;
+    "privatePage":{&#13;
+       "searchEnabled": false,&#13;
+       "userPrefsEnabled": false,&#13;
+       "menuEnabled": false&#13;
+    },&#13;
+    "publicPage":{&#13;
+       "searchEnabled": false,&#13;
+       "userPrefsEnabled": false,&#13;
+       "menuEnabled": false&#13;
+    }&#13;
+ }</value>
+    </sys_ux_page_property>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Adoptry">17cce41997052110114a38271153af04</application>
+        <file_path/>
+        <instance_id>c6a22978db5b2c50f37acac50596199c</instance_id>
+        <instance_name>dev109460</instance_name>
+        <name>sys_ux_page_property_eacd3c15bb852110d419b32dd921dbd3</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ux_page_property"><sys_ux_page_property action="INSERT_OR_UPDATE"><choices/><description/><name>chrome_header</name><page display_value="">2ecd3c1597852110114a38271153af88</page><required_translations>[]</required_translations><route display_value="Login">2acd3c1554852110cc4ef43b522175f4</route><suffix/><sys_class_name>sys_ux_page_property</sys_class_name><sys_created_by>system</sys_created_by><sys_created_on>2023-02-15 06:50:36</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>global</sys_domain_path><sys_id>eacd3c15bb852110d419b32dd921dbd3</sys_id><sys_mod_count>0</sys_mod_count><sys_name>chrome_header</sys_name><sys_package display_value="Adoptry" source="x_862716_adoptry">17cce41997052110114a38271153af04</sys_package><sys_policy/><sys_scope display_value="Adoptry">17cce41997052110114a38271153af04</sys_scope><sys_update_name>sys_ux_page_property_eacd3c15bb852110d419b32dd921dbd3</sys_update_name><sys_updated_by>system</sys_updated_by><sys_updated_on>2023-02-15 06:50:36</sys_updated_on><type>json</type><unique_name>x_862716_adoptry.2ecd3c1597852110114a38271153af88.route.chrome_header.2acd3c1554852110cc4ef43b522175f4</unique_name><value>{&#13;
+    "privatePage":{&#13;
+       "searchEnabled": false,&#13;
+       "userPrefsEnabled": false,&#13;
+       "menuEnabled": false&#13;
+    },&#13;
+    "publicPage":{&#13;
+       "searchEnabled": false,&#13;
+       "userPrefsEnabled": false,&#13;
+       "menuEnabled": false&#13;
+    }&#13;
+ }</value></sys_ux_page_property></record_update>]]></payload>
+        <payload_hash>-853383692</payload_hash>
+        <record_name>chrome_header</record_name>
+        <reverted_from/>
+        <source>3c4cf63197302110114a38271153af87</source>
+        <source_table>sys_upgrade_history</source_table>
+        <state>previous</state>
+        <sys_created_by/>
+        <sys_created_on>2023-02-04 19:04:22</sys_created_on>
+        <sys_id>dcefb4d597852110114a38271153af7c</sys_id>
+        <sys_mod_count/>
+        <sys_recorded_at>1861dd0b2f00000000</sys_recorded_at>
+        <sys_updated_by/>
+        <sys_updated_on/>
+        <type>UX Page Property</type>
+        <update_guid>9cefb4d52e852110e81e6c98c67aeb7c</update_guid>
+        <update_guid_history>9cefb4d52e852110e81e6c98c67aeb7c:-853383692</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-02-15 06:59:39</sys_created_on>
+        <sys_db_object display_value="" name="sys_ux_page_property">sys_ux_page_property</sys_db_object>
+        <sys_id>af837c7c975a45288332042eea1da584</sys_id>
+        <sys_metadata>eacd3c15bb852110d419b32dd921dbd3</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>chrome_header</sys_name>
+        <sys_package display_value="Adoptry" source="x_862716_adoptry">17cce41997052110114a38271153af04</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Adoptry">17cce41997052110114a38271153af04</sys_scope>
+        <sys_scope_delete display_value="">08db500608ee4b0687dd52e97ffdafe4</sys_scope_delete>
+        <sys_update_name>sys_ux_page_property_eacd3c15bb852110d419b32dd921dbd3</sys_update_name>
+        <sys_update_version display_value="sys_ux_page_property_eacd3c15bb852110d419b32dd921dbd3">dcefb4d597852110114a38271153af7c</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-02-15 06:59:39</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

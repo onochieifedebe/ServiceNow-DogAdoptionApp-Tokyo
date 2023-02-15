@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_declarative_action_payload_mapping">
+    <sys_declarative_action_payload_mapping action="INSERT_OR_UPDATE">
+        <action_payload_definition display_value="Reject">f2cd7c159c85211034f490812a11a103</action_payload_definition>
+        <label>Reject Evam</label>
+        <model display_value="Evam">035d270073151010c342d5fdbdf6a715</model>
+        <payload_map>table={{table}}^sysId={{sys_id}}^EQ</payload_map>
+        <sys_class_name>sys_declarative_action_payload_mapping</sys_class_name>
+        <sys_created_by>system</sys_created_by>
+        <sys_created_on>2023-02-15 06:50:35</sys_created_on>
+        <sys_id>becd7c15c9852110f38e32e3b1304a01</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Reject Evam</sys_name>
+        <sys_package display_value="Adoptry" source="x_862716_adoptry">17cce41997052110114a38271153af04</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Adoptry">17cce41997052110114a38271153af04</sys_scope>
+        <sys_update_name>sys_declarative_action_payload_mapping_becd7c15c9852110f38e32e3b1304a01</sys_update_name>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2023-02-15 06:50:35</sys_updated_on>
+    </sys_declarative_action_payload_mapping>
+</record_update>

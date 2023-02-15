@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_composite_data_template_predicate">
+    <sys_ux_composite_data_template_predicate action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <condition table="task">active=true^EQ<item endquery="false" field="active" goto="false" newquery="false" operator="=" or="false" value="true"/>
+            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        </condition>
+        <custom_condition/>
+        <custom_field_list/>
+        <field_list>due_date,short_description,number,opened_by</field_list>
+        <name>My Requests (task) predicate</name>
+        <order/>
+        <predicate_bundle display_value="My Requests (task) bundle">6ecd3c15b5852110cbe287fa831c7ada</predicate_bundle>
+        <required_roles/>
+        <sys_class_name>sys_ux_composite_data_template_predicate</sys_class_name>
+        <sys_created_by>system</sys_created_by>
+        <sys_created_on>2023-02-15 06:50:36</sys_created_on>
+        <sys_id>e6cd3c1568852110c9f2e7de4588dbda</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>My Requests (task) predicate</sys_name>
+        <sys_package display_value="Adoptry" source="x_862716_adoptry">17cce41997052110114a38271153af04</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Adoptry">17cce41997052110114a38271153af04</sys_scope>
+        <sys_update_name>sys_ux_composite_data_template_predicate_e6cd3c1568852110c9f2e7de4588dbda</sys_update_name>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2023-02-15 06:50:36</sys_updated_on>
+        <table>task</table>
+        <ux_template display_value="My Requests (task) template">e2cd3c150d852110efebbd1c11dd5fde</ux_template>
+    </sys_ux_composite_data_template_predicate>
+</record_update>

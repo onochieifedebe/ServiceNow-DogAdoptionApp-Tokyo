@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_client_script">
+    <sys_ux_client_script action="INSERT_OR_UPDATE">
+        <includes/>
+        <macroponent display_value="Landing Page">f6cd3c15118521102d976bcc8acbeefb</macroponent>
+        <name>Refresh landing</name>
+        <preset/>
+        <required_translations>[ ]</required_translations>
+        <script><![CDATA[/**
+ * @param {params} params
+ * @param {api} params.api
+ * @param {any} params.event
+ * @param {any} params.imports
+ */
+function handler({api, event, helpers, imports}) {
+    if(event.payload.name !== 'refresh'){
+        return;
+    }
+    api.data.evam_mytasks.refresh();
+    api.data.evam_myrequests.refresh();
+    api.data.hide_content_sets_1.refresh();
+    api.data.hide_content_sets_2.refresh();
+}]]></script>
+        <script_api_version>2.0.0</script_api_version>
+        <sys_class_name>sys_ux_client_script</sys_class_name>
+        <sys_created_by>system</sys_created_by>
+        <sys_created_on>2023-02-15 06:50:33</sys_created_on>
+        <sys_id>6ecd3c15de8521106f6ab25e61c07cec</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Refresh landing</sys_name>
+        <sys_package display_value="Adoptry" source="x_862716_adoptry">17cce41997052110114a38271153af04</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Adoptry">17cce41997052110114a38271153af04</sys_scope>
+        <sys_update_name>sys_ux_client_script_6ecd3c15de8521106f6ab25e61c07cec</sys_update_name>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2023-02-15 06:50:33</sys_updated_on>
+        <target/>
+        <type/>
+    </sys_ux_client_script>
+</record_update>

@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
     <element db_object_id="bbfd60d197452110114a38271153afc7" label="Dogs" max_length="40" name="x_862716_adoptry_dogs" type="collection">
+        <element label="Adoption Center" max_length="32" name="adoption_center" reference="x_862716_adoptry_adoption_centers" type="reference"/>
         <element label="Age" max_length="40" name="age" type="integer"/>
-        <element attributes="edge_encryption_enabled=true" label="Bio" max_length="4000" name="bio" type="journal"/>
+        <element attributes="edge_encryption_enabled=true" label="Bio" max_length="4000" name="bio" type="string"/>
         <element attributes="edge_encryption_enabled=true" choice="1" label="Breed" max_length="40" name="breed" type="choice">
             <choice>
                 <element inactive_on_update="false" label="Labrador" sequence="100" value="labrador"/>
@@ -22,5 +23,8 @@
                 <element inactive_on_update="false" label="Adopted" sequence="300" value="adopted"/>
             </choice>
         </element>
+        <index name="index">
+            <element name="adoption_center"/>
+        </index>
     </element>
 </database>
