@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_number">
+    <sys_number action="INSERT_OR_UPDATE">
+        <category display_value="" name="x_862716_adoptry_dogs">x_862716_adoptry_dogs</category>
+        <maximum_digits>7</maximum_digits>
+        <number>2000</number>
+        <prefix>DOG</prefix>
+        <sys_class_name>sys_number</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-02-15 05:41:32</sys_created_on>
+        <sys_id>000ea0d197452110114a38271153af6e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>DOG</sys_name>
+        <sys_package display_value="Adoptry" source="x_862716_adoptry">17cce41997052110114a38271153af04</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Adoptry">17cce41997052110114a38271153af04</sys_scope>
+        <sys_update_name>sys_number_000ea0d197452110114a38271153af6e</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-02-15 05:41:32</sys_updated_on>
+    </sys_number>
+</record_update>
